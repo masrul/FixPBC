@@ -55,7 +55,6 @@ public:
 
 private: 
     void _BFS(size_t node){
-        // Slightly modified BFS with ref node for each travel
         visited[node]=true; 
         std::queue<size_t> q;
         q.push(node);
