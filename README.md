@@ -22,7 +22,7 @@ Most of the time typical PBC algorithm works to make a macromolecule whole. But,
 ```bash 
 git clone https://github.com/masrul/FixPBC/
 cd FixPBC
-mkdir build && cd FixPBC
+mkdir build && cd build
 cmake ..
 make && make install
 ```
